@@ -1,14 +1,13 @@
-# url-shortener
-Simple URL shortener backed by sqlite.
+# Простой URL сократитель
 
-Using the API
+<img width="1090" height="569" alt="image" src="https://github.com/user-attachments/assets/b79f6107-4041-483d-ab1b-f0f912f8754c" />
+
+API
 
         $ curl -X POST http://mydomain.com/save -d '{"url": "http://google.com"}'
         {"error":"","id":"M","url":"http://mydomain.com/M"}
 
-There's also a simple web ui available
-
-#### Run in docker:
+#### Docker:
 
     docker run -dv /local/data/path:/data \
     	-p 1337:1337 \
@@ -16,6 +15,6 @@ There's also a simple web ui available
     	-e DB_PATH=/data \
     	jhaals/url-shortener
 
-or use `docker-compose`  
+Или `docker-compose`  
 
     docker-compose up -d
