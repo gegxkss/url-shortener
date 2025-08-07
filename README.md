@@ -4,6 +4,7 @@
 
 
 API
+
         $ curl -X POST http://mydomain.com/save -d '{"url": "http://google.com"}'
         {"error":"","id":"M","url":"http://mydomain.com/M"}
 
@@ -13,7 +14,7 @@ API
     	-p 1337:1337 \
     	-e BASE_URL=http://mydomain.com \
     	-e DB_PATH=/data \
-    	jhaals/url-shortener
+    	gegxkss/url-shortener
 
 Или `docker-compose`  
 
