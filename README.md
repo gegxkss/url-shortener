@@ -1,6 +1,6 @@
 # Простой URL сократитель
 
-<img width="1339" height="689" alt="image" src="https://github.com/user-attachments/assets/701bbebd-8e54-4c8b-9fd2-64ed0aaab258" />
+<img width="1000" height="197" alt="image" src="https://github.com/user-attachments/assets/32dd228f-3046-4ded-a03f-5d01b9a2a345" />
 
 
 API
@@ -16,6 +16,6 @@ API
     	-e DB_PATH=/data \
     	gegxkss/url-shortener
 
-Или `docker-compose`  
+Или  `docker-compose`  
 
     docker-compose up -d
